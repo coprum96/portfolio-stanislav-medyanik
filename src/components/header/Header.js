@@ -1,6 +1,4 @@
 import "./style.css";
-import pdf from './assets/CVStas.pdf'
-
 
 const Header = () => {
     return (
@@ -15,7 +13,7 @@ const Header = () => {
 				<div className="header__text">
 					<p>with passion for coding</p>
 				</div>
-				<a href={pdf} className="btn">
+				<a href="#!" className="btn">
 					Download CV
 				</a>
 			</div>
