@@ -33,7 +33,7 @@ const Footer = () => {
 						</li>
 					</ul>
 					<div className="copyright">
-						<p>© 2023</p>
+						<p>© 2023 stanislav_medyanik</p>
 					</div>
 				</div>
 			</div>
