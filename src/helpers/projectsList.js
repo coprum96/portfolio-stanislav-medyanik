@@ -1,13 +1,21 @@
 import uic from "./../img/projects/uic.png";
 import chat from "./../img/projects/chat.png";
 import stas from "./../img/projects/stas.png";
-import quiz from "./../img/projects/quiz.png"
-import book from "./../img/projects/bookme.png"
+import quiz from "./../img/projects/quiz.png";
+import book from "./../img/projects/bookme.png";
+import autoteile from "./../img/projects/autoteile.png";
 
 
 
 
 const projects = [
+	{
+		title: 'Autoteile',
+		img: stas,
+		imgBig: stas,
+		skills: 'React, Firebase, Node.js, Express, Mantine, MongoDB ',
+		gitHubLink: 'https://github.com/coprum96/AutoTeile',
+	},
 	{
 		title: 'Portfolio HTML',
 		img: stas,
