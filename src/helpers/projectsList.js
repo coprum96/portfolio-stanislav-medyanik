@@ -11,8 +11,8 @@ import autoteile from "./../img/projects/autoteile.png";
 const projects = [
 	{
 		title: 'Autoteile',
-		img: stas,
-		imgBig: stas,
+		img: autoteile,
+		imgBig: autoteile,
 		skills: 'React, Firebase, Node.js, Express, Mantine, MongoDB ',
 		gitHubLink: 'https://github.com/coprum96/AutoTeile',
 	},
