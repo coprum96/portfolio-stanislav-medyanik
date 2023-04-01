@@ -4,6 +4,8 @@ import stas from "./../img/projects/stas.png";
 import quiz from "./../img/projects/quiz.png";
 import book from "./../img/projects/bookme.png";
 import autoteile from "./../img/projects/autoteile.png";
+import realworld from "./../img/projects/realworld.png";
+
 
 
 
@@ -53,6 +55,14 @@ const projects = [
 		img: book,
 		imgBig: book,
 		gitHubLink: 'https://github.com/coprum96/book-me',
+	},
+	{
+		title: 'Real World',
+		skills: 'Nest.js, Angular',
+		img: realworld,
+		imgBig: realworld,
+		gitHubLink: 'https://github.com/coprum96/book-me',
+		internetLink: 'https://demo.realworld.io/#/'
 	},
 
 ];
