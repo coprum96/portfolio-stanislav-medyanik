@@ -1,3 +1,5 @@
+import telegram from '../img/icons/telegram.svg';
+import whatsup from '../img/icons/whatsup.svg';
 const Contacts = () => {
     return (
 		<main className="section">
@@ -18,7 +20,13 @@ const Contacts = () => {
 					<li className="content-list__item">
 						<h2 className="title-2">Telegram / WhatsApp</h2>
 						<p>
-							<a href="tel:+79119068159">+7 (911) 906-81-59</a>
+							<a href="https://t.me/coprum">
+								<img src={telegram} alt="Link" 
+								className="icon" />
+							</a>
+							<a href="https://wa.me/79119068159" >
+								<img src={whatsup} alt="Link" className="icon" />
+							</a>
 						</p>
 					</li>
 					<li className="content-list__item">
