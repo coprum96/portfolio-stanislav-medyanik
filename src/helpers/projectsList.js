@@ -15,8 +15,17 @@ const projects = [
 		title: 'Autoteile',
 		img: autoteile,
 		imgBig: autoteile,
-		skills: 'React, Firebase, Node.js, Express, Mantine, MongoDB ',
+		skills: 'React, Firebase, Mantine, MongoDB',
 		gitHubLink: 'https://github.com/coprum96/AutoTeile',
+		internetLink: 'https://autoteile.vercel.app/'
+	},
+	{
+		title: 'Real World',
+		skills: 'Nest.js, Angular',
+		img: realworld,
+		imgBig: realworld,
+		gitHubLink: 'https://github.com/coprum96/book-me',
+		internetLink: 'https://demo.realworld.io/#/'
 	},
 	{
 		title: 'Portfolio HTML',
@@ -55,14 +64,6 @@ const projects = [
 		img: book,
 		imgBig: book,
 		gitHubLink: 'https://github.com/coprum96/book-me',
-	},
-	{
-		title: 'Real World',
-		skills: 'Nest.js, Angular',
-		img: realworld,
-		imgBig: realworld,
-		gitHubLink: 'https://github.com/coprum96/book-me',
-		internetLink: 'https://demo.realworld.io/#/'
 	},
 
 ];
