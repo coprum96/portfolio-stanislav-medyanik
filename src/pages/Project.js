@@ -1,5 +1,4 @@
 import {useParams} from "react-router-dom";
-import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import InterLink from "../components/interLink/InterLink";
 import {projects} from "./../helpers/projectsList"
 import './Project.css'
@@ -25,9 +24,6 @@ const Project = () => {
 						<p>Skills: {project.skills}</p>
 
 						<div className="button">
-							{project.gitHubLink && (
-								<BtnGitHub link={project.gitHubLink} />
-							)}
 							{project.internetLink && (
 								<InterLink link={project.internetLink} />
 							)}

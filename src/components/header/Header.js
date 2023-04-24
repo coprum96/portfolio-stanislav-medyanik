@@ -1,5 +1,5 @@
 import "./style.css";
-import CVS from "../assets/CVS.pdf";
+import CV from "../assets/CV.en.pdf";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
         <div className="header__text">
           <p>with passion for coding</p>
         </div>
-        <a href={CVS} target="_blank" rel="noopener noreferrer" className="btn">
+        <a href={CV} target="_blank" rel="noopener noreferrer" className="btn">
           Download CV
         </a>
       </div>
